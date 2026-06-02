@@ -227,7 +227,8 @@
         <span class="nav__logo-dot"></span>
         McCoySites
       </div>
-      <p class="footer__copy">© 2025 McCoySites. All rights reserved.</p>
+      <p class="footer__copy">© <span id="footer-year"></span> McCoySites. All rights reserved.</p>
+      <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
       <ul class="footer__links">
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="about.html">About</a></li>
