@@ -843,7 +843,22 @@ p {
   pointer-events: none;
 }
 
+/* ── How It Works (index) ─────────────────────────────────── */
+.how-it-works-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
 /* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .how-it-works-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
 @media (max-width: 900px) {
   :root {
     --section-pad: 64px;
