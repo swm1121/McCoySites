@@ -431,6 +431,20 @@ p {
   border-bottom: 1px solid var(--border);
 }
 
+/* Real thumbnail styling */
+.portfolio-card__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform 0.4s var(--ease);
+}
+
+.portfolio-card:hover .portfolio-card__thumb img {
+  transform: scale(1.025);
+}
+
 /* Placeholder thumbnail styling */
 .portfolio-card__thumb--placeholder {
   display: flex;
