@@ -422,6 +422,11 @@ p {
   grid-column: span 4;
 }
 
+/* Featured card overrides equal grid — matches index.html span-7 treatment */
+.portfolio-grid--equal .portfolio-card--featured {
+  grid-column: span 8;
+}
+
 .portfolio-card__thumb {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -866,6 +871,10 @@ p {
 
   .portfolio-grid--equal .portfolio-card {
     grid-column: span 6;
+  }
+
+  .portfolio-grid--equal .portfolio-card--featured {
+    grid-column: span 12;
   }
 
   .about-grid,
