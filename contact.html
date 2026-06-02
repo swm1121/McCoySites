@@ -78,16 +78,10 @@
 
         <!-- Right: Form -->
         <div>
-          <!--
-            PLACEHOLDER: Wire up form submission.
-            Options: Cloudflare Pages Forms, Formspree, EmailJS, or a serverless function.
-            Replace action="#" with real endpoint.
-          -->
           <form
             class="form"
-            action="#"
+            action="https://formspree.io/f/xykvrnne"
             method="POST"
-            data-placeholder="Connect form to submission endpoint before launch"
           >
             <div class="form-row">
               <div class="form-field">
@@ -118,7 +112,7 @@
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="_replyto"
                 placeholder="jane@smithandco.com"
                 required
                 autocomplete="email"
@@ -140,7 +134,7 @@
               <label for="description">Tell us about your project</label>
               <textarea
                 id="description"
-                name="description"
+                name="message"
                 placeholder="What does your business do? Who are your customers? What should the site accomplish? Any existing brand, colors, or sites you like?"
                 required
               ></textarea>
