@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McCoySites — Web Design for Small Business</title>
+  <meta name="description" content="Professional web design for small businesses. Clean, modern sites built fast. No agency overhead." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-dot"></span>
+        McCoySites
+      </a>
+      <ul class="nav__links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="nav__cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav__links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero__label">Web Design Studio</span>
+      <h1 class="hero__headline">
+        Sites that work as hard as you do.
+      </h1>
+      <p class="hero__sub">
+        Professional web design for small businesses — without agency overhead. Clean code, sharp design, fast delivery.
+      </p>
+      <div class="hero__actions">
+        <a href="portfolio.html" class="btn btn--primary btn--lg">
+          View Our Work
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+        </a>
+        <a href="contact.html" class="btn btn--ghost btn--lg">Start a Project</a>
+      </div>
+
+      <!-- Value props -->
+      <div class="features">
+        <div class="feature">
+          <div class="feature__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div class="feature__title">Built for your business</div>
+          <p class="feature__body">Not a template. Not a theme. A site built around how your business actually works and what your customers need to see.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg>
+          </div>
+          <div class="feature__title">Fast from day one</div>
+          <p class="feature__body">Most projects launch in two to three weeks. Clean code, no bloat, optimized for speed. Your site will load fast and rank for it.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div class="feature__title">Priced for small business</div>
+          <p class="feature__body">Serious quality without agency prices. You get direct access to the person building your site — no account managers, no markups.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Portfolio Preview ────────────────────────────────── -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header__label">Recent Work</div>
+        <h2 class="section-header__title">Selected Projects</h2>
+        <p class="section-header__body">A sample of recent builds — each one designed specifically for the business and the customers it serves.</p>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- PLACEHOLDER: Replace with real project when available -->
+        <div class="portfolio-card" data-placeholder="Project 1 screenshot">
+          <div class="portfolio-card__thumb portfolio-card__thumb--placeholder">
+            <span class="placeholder-label">Project Screenshot</span>
+          </div>
+          <div class="portfolio-card__body">
+            <div class="portfolio-card__category" data-placeholder="Client industry">Industry / Category</div>
+            <div class="portfolio-card__title" data-placeholder="Project name">Project Name</div>
+            <p class="portfolio-card__desc" data-placeholder="Project description">Brief description of what the site does and who it serves. What problem it solves for the client.</p>
+            <span class="portfolio-card__link">
+              View Project
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- PLACEHOLDER: Replace with real project when available -->
+        <div class="portfolio-card" data-placeholder="Project 2 screenshot">
+          <div class="portfolio-card__thumb portfolio-card__thumb--placeholder">
+            <span class="placeholder-label">Project Screenshot</span>
+          </div>
+          <div class="portfolio-card__body">
+            <div class="portfolio-card__category" data-placeholder="Client industry">Industry / Category</div>
+            <div class="portfolio-card__title" data-placeholder="Project name">Project Name</div>
+            <p class="portfolio-card__desc" data-placeholder="Project description">Brief description of what the site does and who it serves.</p>
+            <span class="portfolio-card__link">
+              View Project
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- PLACEHOLDER: Replace with real project when available -->
+        <div class="portfolio-card" data-placeholder="Project 3 screenshot">
+          <div class="portfolio-card__thumb portfolio-card__thumb--placeholder">
+            <span class="placeholder-label">Project Screenshot</span>
+          </div>
+          <div class="portfolio-card__body">
+            <div class="portfolio-card__category" data-placeholder="Client industry">Industry / Category</div>
+            <div class="portfolio-card__title" data-placeholder="Project name">Project Name</div>
+            <p class="portfolio-card__desc" data-placeholder="Project description">Brief description of what the site does and who it serves.</p>
+            <span class="portfolio-card__link">
+              View Project
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- PLACEHOLDER: Replace with real project when available -->
+        <div class="portfolio-card" data-placeholder="Project 4 screenshot">
+          <div class="portfolio-card__thumb portfolio-card__thumb--placeholder">
+            <span class="placeholder-label">Project Screenshot</span>
+          </div>
+          <div class="portfolio-card__body">
+            <div class="portfolio-card__category" data-placeholder="Client industry">Industry / Category</div>
+            <div class="portfolio-card__title" data-placeholder="Project name">Project Name</div>
+            <p class="portfolio-card__desc" data-placeholder="Project description">Brief description of what the site does and who it serves.</p>
+            <span class="portfolio-card__link">
+              View Project
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top: 48px; text-align: center;">
+        <a href="portfolio.html" class="btn btn--ghost">See All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── How We Work ──────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;">
+        <div>
+          <div class="section-header__label" style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px;">How It Works</div>
+          <h2 style="margin-bottom: 20px;">Simple process.<br>Serious results.</h2>
+          <p style="font-size: 1.0625rem; margin-bottom: 16px;">Tell us about your business. We handle everything else — strategy, design, copy structure, code, and launch.</p>
+          <p style="margin-bottom: 40px;">Most clients are live within three weeks. No endless revision cycles. No handholding required.</p>
+          <a href="about.html" class="btn btn--ghost">How We Work →</a>
+        </div>
+
+        <div class="about-process">
+          <div class="process-step">
+            <div class="process-step__num">01</div>
+            <div>
+              <div class="process-step__title">Discovery Call</div>
+              <p class="process-step__body">30 minutes. We learn your business, your customers, and what a successful site looks like for you.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__num">02</div>
+            <div>
+              <div class="process-step__title">Design & Build</div>
+              <p class="process-step__body">We design and build your site. You review. One focused round of revisions.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__num">03</div>
+            <div>
+              <div class="process-step__title">Launch</div>
+              <p class="process-step__body">We handle deployment, domain setup, and make sure everything runs correctly from day one.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA Band ─────────────────────────────────────────── -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="cta-band">
+        <div class="cta-band__text">
+          <h2>Ready to build something?</h2>
+          <p>Tell us about your project. No commitment, no sales call — just a straightforward conversation about what you need.</p>
+        </div>
+        <a href="contact.html" class="btn btn--primary btn--lg" style="white-space: nowrap; flex-shrink: 0;">
+          Get a Quote
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <span class="nav__logo-dot"></span>
+        McCoySites
+      </div>
+      <p class="footer__copy">© 2025 McCoySites. All rights reserved.</p>
+      <ul class="footer__links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

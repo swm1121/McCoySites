@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — McCoySites</title>
+  <meta name="description" content="McCoySites is a solo web design studio serving small businesses. Clean, modern, professional builds without agency overhead." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-dot"></span>
+        McCoySites
+      </a>
+      <ul class="nav__links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html" class="nav__cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav__links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── About Hero ──────────────────────────────────────── -->
+  <section class="about-hero">
+    <div class="container">
+      <span class="hero__label">About</span>
+      <h1 style="margin-bottom: 24px; max-width: 16ch;">Built different, by design.</h1>
+      <p style="font-size: 1.125rem; color: var(--text-2); max-width: 54ch; line-height: 1.7;">
+        McCoySites is a solo web design studio. One person, direct accountability, no layers. Small businesses get the same quality as companies ten times their size — without paying for overhead they don't need.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Who We Are ──────────────────────────────────────── -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <div class="section-header__label" style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px;">Who We Are</div>
+          <h2 style="margin-bottom: 24px;">A studio, not an agency.</h2>
+          <p style="font-size: 1.0625rem; margin-bottom: 16px;">
+            At agencies, your project passes through a sales team, an account manager, a creative director, and a developer — each one adding time, cost, and distance between you and the final product.
+          </p>
+          <p style="margin-bottom: 16px;">
+            McCoySites cuts all of that. You work directly with the person designing and building your site. That means faster decisions, cleaner output, and a site that actually reflects your business.
+          </p>
+          <p>
+            We use modern tools — including AI-assisted workflows — to move faster without cutting corners. The result is professional-quality work delivered on a small-business timeline and budget.
+          </p>
+
+          <!-- PLACEHOLDER: Add real stats once client history exists -->
+          <div class="about-stat-row" data-placeholder="Update with real numbers once established">
+            <div>
+              <div class="about-stat__num" data-placeholder="Real count">—</div>
+              <div class="about-stat__label">Projects delivered</div>
+            </div>
+            <div>
+              <div class="about-stat__num" data-placeholder="Real avg">—</div>
+              <div class="about-stat__label">Avg. days to launch</div>
+            </div>
+            <div>
+              <div class="about-stat__num" data-placeholder="Real count">—</div>
+              <div class="about-stat__label">Repeat clients</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- PLACEHOLDER: Replace with a real photo or designed visual -->
+          <div
+            data-placeholder="Photo or visual — owner portrait or studio image"
+            style="
+              aspect-ratio: 4/5;
+              background: var(--surface-2);
+              border: 1px solid var(--border);
+              border-radius: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              gap: 12px;
+            "
+          >
+            <span class="placeholder-label">Owner photo or studio visual</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Why Small Business ───────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 680px; margin: 0 auto; text-align: center; margin-bottom: 64px;">
+        <div class="section-header__label" style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px;">Why Small Business</div>
+        <h2 style="margin-bottom: 16px;">Small businesses deserve better websites.</h2>
+        <p style="font-size: 1.0625rem; color: var(--text-2);">Most small business sites look like they were built fast and forgotten. That's the gap we fill.</p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+          </div>
+          <div class="feature__title">You talk to the builder</div>
+          <p class="feature__body">No account managers or project coordinators. The person you brief is the person writing the code and making design decisions.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div class="feature__title">Faster than you expect</div>
+          <p class="feature__body">Most projects go from kickoff to launch in two to three weeks. No queue, no waiting for team availability.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+          </div>
+          <div class="feature__title">Clean code that lasts</div>
+          <p class="feature__body">Hand-coded, semantic HTML. Fast, accessible, maintainable. Not locked into a page builder you'll outgrow in a year.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── How We Work ──────────────────────────────────────── -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="about-grid" style="gap: 64px;">
+        <div>
+          <div class="section-header__label" style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px;">Our Process</div>
+          <h2 style="margin-bottom: 20px;">How a project works</h2>
+          <p style="font-size: 1.0625rem; margin-bottom: 16px;">
+            We keep the process tight by design. The more time you spend in back-and-forth, the more your launch date slips.
+          </p>
+          <p>
+            We come prepared. Every project starts with research into your industry and competitors so we're not starting from scratch when we talk to you.
+          </p>
+        </div>
+
+        <div class="about-process">
+          <div class="process-step">
+            <div class="process-step__num">01</div>
+            <div>
+              <div class="process-step__title">Kickoff Call — 30 min</div>
+              <p class="process-step__body">We cover your business, your customers, your goals, and any existing brand or content. You leave knowing exactly what happens next.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__num">02</div>
+            <div>
+              <div class="process-step__title">Design Review — async</div>
+              <p class="process-step__body">We share a full design mockup for your feedback. You review on your schedule. One clear round of revisions, then we build.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__num">03</div>
+            <div>
+              <div class="process-step__title">Build & QA</div>
+              <p class="process-step__body">We code the site, test across devices and browsers, and hand you a staging link for final review before anything goes live.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__num">04</div>
+            <div>
+              <div class="process-step__title">Launch</div>
+              <p class="process-step__body">We handle deployment, DNS, performance checks, and make sure everything is solid before we call it done.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ─────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div class="cta-band__text">
+          <h2>Let's build something.</h2>
+          <p>Tell us what your business needs. We'll come back with a clear plan and a straightforward quote.</p>
+        </div>
+        <a href="contact.html" class="btn btn--primary btn--lg" style="white-space: nowrap; flex-shrink: 0;">
+          Get a Quote
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <span class="nav__logo-dot"></span>
+        McCoySites
+      </div>
+      <p class="footer__copy">© 2025 McCoySites. All rights reserved.</p>
+      <ul class="footer__links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
