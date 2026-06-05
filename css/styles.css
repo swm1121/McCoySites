@@ -429,7 +429,8 @@ p {
 
 .portfolio-card__thumb {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  min-height: 220px;
+  height: 220px;
   overflow: hidden;
 }
 
@@ -441,14 +442,21 @@ p {
   display: block;
 }
 
-
-/* Placeholder thumbnail styling */
+/* Placeholder thumbnail — matches card height, site color scheme */
 .portfolio-card__thumb--placeholder {
+  background: var(--surface-2);
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 10px;
+  min-height: 220px;
+  height: 220px;
+}
+
+.portfolio-card__thumb--placeholder span {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text-2);
+  letter-spacing: -0.01em;
 }
 
 
