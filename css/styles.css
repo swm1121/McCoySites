@@ -254,31 +254,11 @@ p {
 }
 
 .hero__promises {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 32px;
-  padding: 0;
-}
-
-.hero__promises li {
-  font-size: 0.8125rem;
+  margin-top: 28px;
+  font-size: 0.8rem;
   color: var(--text-3);
-  line-height: 1.6;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero__promises li::before {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--accent);
-  flex-shrink: 0;
+  letter-spacing: 0.01em;
+  max-width: none;
 }
 
 /* ── Buttons ──────────────────────────────────────────────── */
@@ -824,6 +804,8 @@ p {
   font-size: 0.8125rem;
   color: var(--text-3);
   max-width: none;
+  white-space: nowrap;
+  text-align: center;
   padding-bottom: 16px;
   margin-bottom: 16px;
   border-bottom: 1px solid var(--border);
