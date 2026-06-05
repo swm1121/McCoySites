@@ -451,16 +451,6 @@ p {
   gap: 10px;
 }
 
-.placeholder-label {
-  font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-3);
-  border: 1px dashed var(--border-light);
-  padding: 6px 12px;
-  border-radius: 4px;
-}
 
 .portfolio-card__body {
   padding: 24px;
@@ -816,29 +806,6 @@ p {
   margin: 0;
 }
 
-/* ── Placeholder notices ──────────────────────────────────── */
-/* Red indicator so nothing fake ships accidentally */
-[data-placeholder] {
-  outline: 2px dashed rgba(220, 60, 60, 0.5);
-  outline-offset: 2px;
-  position: relative;
-}
-
-[data-placeholder]::after {
-  content: '⚠ PLACEHOLDER: ' attr(data-placeholder);
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  font-family: var(--mono);
-  font-size: 10px;
-  background: rgba(200, 40, 40, 0.9);
-  color: #fff;
-  padding: 2px 8px;
-  border-radius: 3px;
-  z-index: 10;
-  white-space: nowrap;
-  pointer-events: none;
-}
 
 /* ── How It Works (index) ─────────────────────────────────── */
 .how-it-works-grid {
